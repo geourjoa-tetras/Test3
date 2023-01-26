@@ -25,7 +25,7 @@
 					"type": "AnnotationPage",
 					"items": [
 						{
-							"id": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_255d8188-df07-42d3-8b45-2f0ecc000b4e_Dancing Philosophy - Solos improvisés/canvas/1/page/1/1",
+							"id": "https://geourjoa-tetras.github.io/Test3/manifests/m1jacob.json",
 							"type": "Annotation",
 							"motivation": "painting",
 							"body": {

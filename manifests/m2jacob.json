@@ -1,0 +1,48 @@
+{
+	"@context": "http://iiif.io/api/presentation/3/context.json",
+	"id": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_133d72b4-989e-43c2-9ee3-a1246b785968_Stefania Ferrando_manifest.json",
+	"type": "Manifest",
+	"label": {
+		"en": [
+			"video-with-image-annotation (Stefania Ferrando)"
+		]
+	},
+	"items": [
+		{
+			"id": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_133d72b4-989e-43c2-9ee3-a1246b785968_Stefania Ferrando/canvas/1",
+			"type": "Canvas",
+			"height": 350,
+			"width": 250,
+			"duration": 265,
+			"label": {
+				"en": [
+					"video-with-image-annotation (Stefania Ferrando)"
+				]
+			},
+			"items": [
+				{
+					"id": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_133d72b4-989e-43c2-9ee3-a1246b785968_Stefania Ferrando/canvas/1/page/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_133d72b4-989e-43c2-9ee3-a1246b785968_Stefania Ferrando/canvas/1/page/1/1",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "http://localhost:9000/data/media/stefania-ferrando.png",
+								"type": "Image",
+								"format": "image/png",
+								"height": 350,
+								"width": 250,
+								"duration": 265
+							},
+							"target": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_133d72b4-989e-43c2-9ee3-a1246b785968_Stefania Ferrando/canvas/1#xywh=0,0,250,350&t=0,265"
+						}
+					]
+				}
+			],
+			"thumbnail": [],
+			"annotations": []
+		}
+	]
+}
