@@ -59,19 +59,13 @@
               "target": "https://iiif.io/api/cookbook/recipe/0021-tagging/canvas/p1#xywh=265,661,1260,1239"
             },
             {
-              "@context": "http://www.w3.org/ns/anno.jsonld",
               "id": "http://example.org/anno2",
               "type": "Annotation",
               "motivation": "tagging",
               "body": {
-                  "type": "TextualBody",
-                  "value": "Sehr Gut",
-                  "language": "de",
-                  "format": "text/plain"
-              },
-              "target": {
-                "id": "https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json",
-                "format": "application/json"
+                  "type": "Manifest",
+                  "value": "https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json",
+                  "format": "application/json"
               }
             }
           ]
