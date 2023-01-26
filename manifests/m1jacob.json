@@ -1,0 +1,85 @@
+{
+	"@context": "http://iiif.io/api/presentation/3/context.json",
+	"id": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_255d8188-df07-42d3-8b45-2f0ecc000b4e_Dancing Philosophy - Solos improvisés_manifest.json",
+	"type": "Manifest",
+	"label": {
+		"en": [
+			"video-with-image-annotation (Dancing Philosophy - Solos improvisés)"
+		]
+	},
+	"items": [
+		{
+			"id": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_255d8188-df07-42d3-8b45-2f0ecc000b4e_Dancing Philosophy - Solos improvisés/canvas/1",
+			"type": "Canvas",
+			"height": 1220,
+			"width": 1280,
+			"duration": 461,
+			"label": {
+				"en": [
+					"video-with-image-annotation (Dancing Philosophy - Solos improvisés)"
+				]
+			},
+			"items": [
+				{
+					"id": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_255d8188-df07-42d3-8b45-2f0ecc000b4e_Dancing Philosophy - Solos improvisés/canvas/1/page/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_255d8188-df07-42d3-8b45-2f0ecc000b4e_Dancing Philosophy - Solos improvisés/canvas/1/page/1/1",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "http://localhost:9000/data/media/Dancing_Philosophy_Solos_improvises.mp4",
+								"type": "Video",
+								"height": 720,
+								"width": 1280,
+								"duration": 461,
+								"format": "video/mp4"
+							},
+							"target": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_255d8188-df07-42d3-8b45-2f0ecc000b4e_Dancing Philosophy - Solos improvisés/canvas/1#xywh=0,0,1280,720&t=0,461"
+						}
+					]
+				}
+			],
+			"thumbnail": [],
+			"annotations": [
+				{
+					"id": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_255d8188-df07-42d3-8b45-2f0ecc000b4e_Dancing Philosophy - Solos improvisés/canvas/1/annotation/2",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_255d8188-df07-42d3-8b45-2f0ecc000b4e_Dancing Philosophy - Solos improvisés/canvas/1/annotation/2/1",
+							"type": "Annotation",
+							"motivation": "commenting",
+							"body": {
+								"id": "http://localhost:9000/data/media/stefania-ferrando.png",
+								"type": "Image",
+								"format": "image/png",
+								"value": "Stefania Ferrando <a href=\"http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_133d72b4-989e-43c2-9ee3-a1246b785968_Stefania Ferrando_manifest.json\" target=\"_blank\">Go to Manifest</a>",
+								"height": 350,
+								"width": 250,
+								"duration": 265
+							},
+							"target": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_255d8188-df07-42d3-8b45-2f0ecc000b4e_Dancing Philosophy - Solos improvisés/canvas/1#xywh=0,720,250,350&t=12,277"
+						},
+						{
+							"id": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_255d8188-df07-42d3-8b45-2f0ecc000b4e_Dancing Philosophy - Solos improvisés/canvas/1/annotation/2/2",
+							"type": "Annotation",
+							"motivation": "commenting",
+							"body": {
+								"id": "http://localhost:9000/data/media/cosetta-graffione.png",
+								"type": "Image",
+								"format": "image/png",
+								"value": "Consetta Graffione <a href=\"http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_d1585705-0150-4430-9f60-a7a9295e039a_Consetta Graffione_manifest.json\" target=\"_blank\">Go to Manifest</a>",
+								"height": 500,
+								"width": 200,
+								"duration": 157
+							},
+							"target": "http://localhost:9000/data/video-with-image-annotation/video-with-image-annotation_255d8188-df07-42d3-8b45-2f0ecc000b4e_Dancing Philosophy - Solos improvisés/canvas/1#xywh=0,720,200,500&t=283,440"
+						}
+					]
+				}
+			]
+		}
+	]
+}
