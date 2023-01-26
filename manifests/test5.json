@@ -48,7 +48,7 @@
           "target" : "https://iiif.io/api/cookbook/recipe/0019-html-in-annotations/canvas-1"
         } ]
       }, {
-        "id" : "https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json/annotManifest",
+        "id" : "https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json/annotttManifest",
         "type" : "AnnotationPage",
         "items" : [ {
             "id" : "https://iiif.io/api/cookbook/recipe/0003-mvm-video/manifest.json",
