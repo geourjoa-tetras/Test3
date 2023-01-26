@@ -58,10 +58,25 @@
               "type" : "TextualBody",
               "language" : "fr",
               "format" : "text/html",
-              "value" : "Un autre manifest"
+              "value" : "Un manifest sans dièse"
             },
             "target" : "https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json"
           } ]
-      } ]
+      }, {
+        "id" : "https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json/annotManifest",
+        "type" : "AnnotationPage",
+        "items" : [ {
+            "id" : "https://iiif.io/api/cookbook/recipe/0003-mvm-video/manifest.json#manifest",
+            "type" : "Annotation",
+            "motivation" : "commenting",
+            "body" : {
+              "type" : "TextualBody",
+              "language" : "fr",
+              "format" : "text/html",
+              "value" : "Un manifest avec dièse"
+            },
+            "target" : "https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json"
+          } ]
+      }]
     } ]
   }
