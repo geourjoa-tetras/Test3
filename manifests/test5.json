@@ -58,7 +58,7 @@
               "type" : "TextualBody",
               "language" : "fr",
               "format" : "text/html",
-              "value" : "Un manifest sans dièse"
+              "value" : "Un manifest sans dièse mais avec un manifest dans son body <a href='https://iiif.io/api/cookbook/recipe/0003-mvm-video/manifest.json#manifest'>Un lien vers un manif</a>"
             },
             "target" : "https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json"
           } ]
